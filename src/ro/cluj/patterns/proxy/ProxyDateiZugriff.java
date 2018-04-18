@@ -14,7 +14,6 @@ public class ProxyDateiZugriff implements IDateiZugriff {
 		return name;
 	}
 
-	@Override
 	public String getInhalt() {
 		if(realeDatei == null) {
 			System.out.println("Inhalt liegt lokal nicht vor");
